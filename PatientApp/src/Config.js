@@ -1,0 +1,1 @@
+export var userSeedCheck = Buffer.from('800850', 'hex')
