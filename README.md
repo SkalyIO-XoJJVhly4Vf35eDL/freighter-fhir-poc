@@ -1,13 +1,13 @@
 # FHIR-Freighter PoC
 
-FHIR-Freighter shows a scenario of a healthcare provider and a patient exchanging data, with the option for the patient to withdraw consent (and have the healthcare provider scrub any data that is from the patient).
+FHIR-Freighter shows an scenario of a healthcare provider and an patient exchanging data, with the option for the patient to withdraw consent (and have the healthcare provider scrub any data that is from the patient).
 
-All of this happens on the Tangle and inherits the [HL7 FHIR](https://www.hl7.org/fhir/) standard, making sure that data is interopable between different organisations and systems.
+All of this happens on the Tangle and inherits the [HL7 FHIR](https://www.hl7.org/fhir/) standard, making sure that data is interoperable between different organizations and systems.
 
 This PoC is split into 2 demo's, each in their respective folder:
 
 - [Dashboard/](./Dashboard)
-    - The portal for the healthcare professional. The dashboard features a overview of patient channels and the ability to delete them from the patients side.
+    - The portal for the healthcare professional. The dashboard features an overview of patient channels and the ability to delete them from the patients side.
 
 - [PatientApp/](./PatientApp)
     - The patient app is a web app that connects to the dashboard and shares (demo) patient data.
@@ -22,7 +22,7 @@ To read more about FRPC, it's cryptography and inner workings, see the [FRPC rea
 
 # Launch the demo online
 
-You can go to [fhir_patient.skaly.io](https://fhir_patient.skaly.io) for the patient demo and to [fhir_dashboard.skaly.io](https://fhir_dashboard.skaly.io). Note that you need both at the same time so make sure you open them in a separate tab next to eachother!
+You can go to [fhir_patient.skaly.io](https://fhir_patient.skaly.io) for the patient demo and to [fhir_dashboard.skaly.io](https://fhir_dashboard.skaly.io). Note that you need both at the same time so make sure you open them in a separate tab next to each other!
 
 # Launch the demo locally
 
